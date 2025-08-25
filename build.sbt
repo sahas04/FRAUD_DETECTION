@@ -1,4 +1,3 @@
-import scala.collection.Seq
 
 name := "FraudDetection"
 
@@ -22,5 +21,8 @@ libraryDependencies ++= Seq(
   "ml.dmlc" %% "xgboost4j" % "1.7.5",
   "org.scalameta" %% "munit" % "1.0.0-M7" % Test,
   "com.google.code.gson" % "gson" % "2.10.1",
-  "org.postgresql" % "postgresql" % "42.6.0"
+  "org.postgresql" % "postgresql" % "42.6.0",
+  "com.sun.mail" % "javax.mail" % "1.6.2",
+  "org.scalaj" %% "scalaj-http" % "2.4.2",
+  "com.esotericsoftware" % "kryo-shaded" % "4.0.2"
 )
